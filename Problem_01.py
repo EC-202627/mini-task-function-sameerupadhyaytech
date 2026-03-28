@@ -9,9 +9,10 @@ def calculate_fine(book_title, days_overdue, daily_rate=5.0, max_fine=150.0):
         print(f"Book: {book_title} Days overdue: {days_overdue} Fine: Rs. {fine}")
 
 
-# 🔹 Input 2 lines me lo
+# Input:
 book_title = input()
 days_overdue = int(input())
 
-# 🔹 Function call
+# Function call:
 calculate_fine(book_title, days_overdue)
+
